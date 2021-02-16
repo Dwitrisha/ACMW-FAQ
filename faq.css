@@ -14,6 +14,7 @@ h1 {
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgb(75, 75, 75);
 }
 
 .accordion {
@@ -24,7 +25,7 @@ h1 {
 .accordion-item {
      background-image: linear-gradient(to bottom right,#0c3547, #49a6ad);
 
-  color: rgb(236, 233, 233);
+  color: rgb(253, 253, 253);
   margin: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 5px  rgba(0,0,0,0.25);
@@ -57,11 +58,18 @@ h1 {
   padding: 1rem;
   line-height: 1.5rem;
   border-top: 1px solid;
-  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) ;
 }
 
 @media(max-width:767px) {
   html {
     font-size: 14px;
   }
+}
+
+.background{
+  margin: none;
+  height: 15rem;
+  background-image: linear-gradient(to  right,#759195 , #87bfc4 );
+  padding:3rem;
 }
